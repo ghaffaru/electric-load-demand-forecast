@@ -1,0 +1,52 @@
+\documentclass[12pt]{book}
+\usepackage[doublespacing]{setspace}
+\usepackage[a4paper, inner=1.5cm, outer=3cm, top=1.5cm,
+bottom=3cm, bindingoffset=1cm]{geometry}
+\usepackage{parskip}
+\begin{document}
+	\chapter{INTRODUCTION}
+	\section{Introduction}
+		Power system planning is an integral part of Electrical Engineering. One of its stages and the most important module include electrical load forecast to adequately satisfy the loads for a foreseen future. Electrical load forecasting is the prediction of the load behavior for the future use. As the demand of electricity grow rapidly, the planning for power system is very important. Short-term load forecast (STLF) serves as a guideline for safe scheduling, planning and management of Microgrid.
+If the predicting load is higher than the real requirement, it will waste the resource for electricity generation and electric power product. The predicted loads are used for decision-making in generation scheduling such as economic load dispatching. Accurate load forecasting plays an important role in decision making about generation and transmission planning, which avoids over and under generation situations. 
+
+The characteristic of load demand is non-stationary which depends on several factors such as time, weather conditions, special events, electricity price etc. Load forecasting techniques can be classified into Short Term Load Forecasting (STLF), Medium Term Load Forecasting (MTLF) and Long Term Load Forecasting (LTLF).
+STLF can be used for hourly to weekly forecasting, MTLF may be use for week to months forecasting and LTLF is used for more than year forecasting. With this some driven forces could be used and some could be ignored in all the three causes. GDP could be effective in LTLF and be ineffective in STLF. On the other hand, TV programs could be effective in STLF and ineffective in LTLF,  out of which STLF will be the topic of our study. 
+
+Short-term forecasting at load level needs to account for large number of behavioral variations and is a non-linear problem.
+Handling the forecast problem can be approached in two ways. 
+one is the traditional methods such as temporal series methods and regression analysis methods, which are simple and high require computing speed, but they can not simulate the complex and variable load. Another is the Artificial Intelligence methods, utilizing machine learning and deep learning. This approach proved better in recent years and are more suited for short-term forecasting.
+
+Support vector machines (SVM) for regression is a powerful nonlinear method that can be used for load forecasting.  SVM is a powerful supervised learning algorithm in machine learning that has been utilized in pattern recognition and classification issues, now extended for regression problems.
+
+Artificial Neural Networks (ANN) in power industries has been growing in acceptance. ANN is primarily developed to mimic basic biological systems to learn by example, like humans do. In general, ANNs are mathematical techniques composed of basic computing processing elements known as neurons, in conjunction with layers which are responsible for transferring the weights and biases across neurons. 
+
+Recurrent Neural Networks (RNN) is useful for timeseries applications. This neural network architecture utilizes back-propagation to transfer its weights and biases throughout its layers. It is powerful in the sense that it is able to detect patterns in sequence and predict the future.
+
+We intend to use Decision Tree Regression algorithm in machine learning to forecast the load and compare it with deep learning architectures such as the Artificial Neural Network (ANN).
+
+\section{Objectives of the Study}
+	The objective of this study is to utilize the strength of Artificial Intelligence in forecasting daily and hourly electrical load to be consumed by people living in a geographical area. The use of machine learning algorithms provides an option for the distribution substations to further serve their consumers by producing standardized power which will be sufficient for them on hourly and daily basis.
+\section{Research Problem Statement}
+	Ghana's electrical power company faces economical and technical challenges in terms of power planning and distribution of adequate power to meet the needs of consumers. Previously, traditional approaches such as usage of genetic algorithms were used to forecast the load, but as the power is consumed in a non-linear format, these algorithms are not able to capture the trend. Human labor is also utilized to simulate and predict the power that will be consumed in a particular city. 
+	
+	With the advent of Artificial Intelligence and machine learning, this problem can be solved with much more precision.
+\section{Scope of Work}
+	The scope of this thesis covers an electrical load forecasting techique that makes use of weather and time variables to predict power that will be consumed in the next hour, and the next 24 hours which is regarded as Short Term Load Forecasting. The performance of using either a deep learning approach by making use of Artificial Neural Networks (ANN) or machine learning approach is measured in two metrics. These metrics are: mean average percentage error (MAPE) and root mean squared error (RMSE). 
+	
+	This error checking measures provides a good indication on how the artificial intelligence model is performing after been trained. The goal of this metrics will be to approach zero, as better performance comes the less error.
+	
+	This thesis also covers the entire process of training the AI model to deploying it to production for use by the distribution substations. The production environments will cover mobile and web applications. Thus, the scope of this work goes beyond training the AI model, but also covers other technologies utilizing mobile and web application frameworks.
+	
+\section{Thesis Outline}
+	As the focus of this thesis is not dedicated only to the electrical engineering aspect, but also and more importantly on the application of artificial intelligence, the content will cover both areas. 
+	
+	The content of this thesis will be spread across five chapters. The next chapter which is Chapter two covers the Literature review, where the details of relevant theory, review of past or reported work will be addressed. The chapter is concluded with a brief introduction of the proposed work or solution.
+	
+	Chapter three covers the research methodology which entails how the problem was analyzed, the procedures and methods that was undertook, and the equipments used. Block diagram and a break down of each block will be explained in detail.
+	
+	Analysis of the results from the work will be done in chapter four. Many approaches for solving the load forecasting problem using artificial intelligence will be compared and deliberated on why a model performs better than the other. 
+	Model testing and deployment activities will be explained in this chapter.
+	
+	In chapter five, conclusion is written and a summary of main study and work will be presented. Directions for future research will be layed out.
+
+\end{document}
